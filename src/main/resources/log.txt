@@ -1,0 +1,3 @@
+[Env:local][Project:gsois-sell-in] : 2025/08/13 16:01:37,711 [INFO] [restartedMain] logStarting(StartupInfoLogger.java:53) - Starting SellInServiceApplication using Java 17.0.10 with PID 13172 (C:\work\java\sonyprojects\gsois-sell-in\target\classes started by 7000036541 in C:\work\java\sonyprojects\gsois-sell-in)
+Hibernate: select * from employee where id=1
+Hibernate: update department set name='HR' where id=2
