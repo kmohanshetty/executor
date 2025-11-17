@@ -1,13 +1,17 @@
 package com.test.anno;
 
 import java.lang.annotation.Annotation;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
 import java.lang.reflect.Method;
 
+@Retention(RetentionPolicy.RUNTIME)
 @interface Annot1 {
 	String str();
 	int val();
 }
 
+@Retention(RetentionPolicy.RUNTIME)
 @interface Annot2 {
 	String description();
 }
